@@ -86,7 +86,7 @@ export default function Home() {
 
                                   <div className="meta">
                                       <Clock size={12} />
-                                      <span>{new Date('01.01.2027').toLocaleDateString()}</span>
+                                      <span>{new Date('2027-01-01').toLocaleDateString()}</span>
                                       <span>By sbjaj2000</span>
                                   </div>
                               </div>

@@ -9,7 +9,7 @@
   --color-secondary: #3b82f6;
   --color-accent: #8b5cf6;
   --font-serif: "Instrument Serif", serif;
-  --font-sans: Inter, sans-serif;
+  --font-sans: "Inter", sans-serif;
   --shadow-neobrutalism: 4px 4px 0px 0px rgba(0, 0, 0, 1);
 }
 
@@ -21,7 +21,7 @@
   body {
     background-color: #fdfbf7;
     color: #1a1a1a;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -98,7 +98,7 @@
       @apply flex justify-between items-center mb-4;
 
       h3 {
-        @apply text-lg font-semibold text-zinc-100;
+        @apply text-lg font-semibold text-zinc-900;
       }
     }
   }

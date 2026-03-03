@@ -7,6 +7,10 @@ export const STORAGE_PATHS = {
     RENDERS: "Collabry/renders",
 } as const;
 
+// File Validation
+export const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/jpg"];
+export const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+
 // Timing Constants (in milliseconds)
 export const SHARE_STATUS_RESET_DELAY_MS = 1500;
 export const PROGRESS_INCREMENT = 15;

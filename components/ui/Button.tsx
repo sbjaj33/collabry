@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({
         "btn",
         `btn--${variant}`,
         `btn--${size}`,
-        fullWidth ? "btn--fullWidth" : "",
+        fullWidth ? "btn--full" : "",
         className,
     ]
         .filter(Boolean)
